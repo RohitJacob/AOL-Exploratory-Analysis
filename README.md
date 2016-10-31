@@ -11,10 +11,12 @@ interesting.
 b. What do you want to share with the Product Manager of Search based on exploratory
 analysis of this dataset ?
 - Mispelled and semantic errors
+
 - 10th ItemRank most clicked
 
 c. What are some common queries ?
-- Found Google and search engines
+- Little to AOL's disappointment, it looks like most users are searching for other search engines instead of using AOL directly because when we look up the Common queries, they are either accidental (left blank, or accidentally hitting search without typing a query, or they are searching for Google, Yahoo, etc
+![Common Queries](MostSearchedQueries.png)
 
 d. Which queries do not typically lead to a click ?
 - Mispelled and Vulgar searches
