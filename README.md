@@ -10,7 +10,8 @@ interesting.
 
 b. What do you want to share with the Product Manager of Search based on exploratory
 analysis of this dataset ?
-- Mispelled Errors.
+- Mispelled and semantic errors
+- 10th ItemRank most clicked
 
 c. What are some common queries ?
 - Found Google and search engines
