@@ -3,23 +3,14 @@ The goal of this collection is to provide real query log data that is based on r
 
 ## QUESTIONS
 
-### 1. EXPLORATORY ANALYSIS
-a. Extract relevant metrics, create visualizations, and share a few (2 to 3) insights that you find
-interesting.
-- Targeted Audience
+#### 1. EXPLORATORY ANALYSIS
 
-b. What do you want to share with the Product Manager of Search based on exploratory
-analysis of this dataset ?
-- Mispelled and semantic errors
-
-- 10th ItemRank most clicked
-
-c. What are some common queries ?
+##### a. What are some common queries ?
 - Little to AOL's disappointment, it looks like most users are searching for other search engines instead of using AOL directly because when we look up the Common queries, they are either accidental (left blank, or accidentally hitting search without typing a query, or they are searching for Google, Yahoo, etc
 ![Common Queries](MostSearchedQueries.png)
 
 
-d. Which queries do not typically lead to a click ?
+##### b. Which queries do not typically lead to a click ?
 - Mispelled and Vulgar searches
 At first, I tried looking to see if there was a correlation between the time of day and the number of NaN results, and these were my findings.
 ![Queries By Day](SufferingUsers.png)
@@ -31,16 +22,32 @@ As you can see, 42.2% of these NaN return searches are mispelled. But 57.8% is c
 Took a high-level view, and noticed a lot of x-rated material. So let's analyze that a bit!
 ![Vulgar Queries](VulgarUsedByMostActiveUsers.png)
 
-That's a lot of x-rated queries
-
-e. Which queries almost always lead to a click ?
-- Correctly spelled queries
-
-f. Which queries do not seem to have relevant results ? You should define this in your own
+##### c. Which queries do not seem to have relevant results ? You should define this in your own
 terms and back it up with data.
-- Ranks 5 and up!
 
-g. How long are typical time spent by users on the search engine ? What does this distribution
+![Irrelevant Results](IrrelevantResults.png)
+
+Looking at the table below as well as the analysis; any searches that:
+- X-Rated
+- Misspelled
+- Have Semantic errors 
+
+##### d. How long are typical time spent by users on the search engine ? What does this distribution
 look like ?
 
-h. What are the top urls that show up in results ?
+![Time Summary](TimeSummary.png)
+
+##### e. What are the top urls that show up in results ?
+
+![Common URLs](CommonURLS.png)
+
+##### f. What do you want to share with the Product Manager of Search based on exploratory
+analysis of this dataset ?
+
+Opportunities:
+- Targetting People Who Have Had No Problems With AOLs Search Engine Results
+- Market Retention Promotion Plans For First Time Users
+
+Fixes:
+- Incorporate an effective auto correction feature so that the queries lead to proper search results
+- Look to implement better Semantic understanding of the Search Query and map it to a more understandable form so that the query can get better Item Ranks.
