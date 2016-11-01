@@ -22,18 +22,16 @@ As you can see, 42.2% of these NaN return searches are mispelled. But 57.8% is c
 Took a high-level view, and noticed a lot of x-rated material. So let's analyze that a bit!
 ![Vulgar Queries](Visuals/VulgarUsedByMostActiveUsers.png)
 
-##### c. Which queries do not seem to have relevant results ? You should define this in your own
-terms and back it up with data.
+##### c. Which queries do not seem to have relevant results ? You should define this in your own terms and back it up with data.
 
 ![Irrelevant Results](Visuals/IrrelevantResults.png)
 
-Looking at the table below as well as the analysis; any searches that:
+Looking at the table above as well as the analysis; any searches that:
 - X-Rated
 - Misspelled
 - Have Semantic errors 
 
-##### d. How long are typical time spent by users on the search engine ? What does this distribution
-look like ?
+##### d. How long are typical time spent by users on the search engine ? What does this distribution look like ?
 
 ![Time Summary](Visuals/TimeSummary.png)
 
@@ -41,8 +39,7 @@ look like ?
 
 ![Common URLs](Visuals/CommonURLS.png)
 
-##### f. What do you want to share with the Product Manager of Search based on exploratory
-analysis of this dataset ?
+##### f. What do you want to share with the Product Manager of Search based on exploratory analysis of this dataset ?
 
 Opportunities:
 - Targetting People Who Have Had No Problems With AOLs Search Engine Results
