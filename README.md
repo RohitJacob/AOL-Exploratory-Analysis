@@ -26,7 +26,7 @@ But as we can see, there doesn't seem to be a big problem with respect to the ti
 ![Total Misspelled Queries](SpellCheckQueries.png)
 As you can see, 42.2% of these NaN return searches are mispelled. But 57.8% is correctly typed, but no result still? 
 Took a high-level view, and noticed a lot of x-rated material. So let's analyze that a bit!
-![Vulgar Queries](VulgarQueries.png)
+![Vulgar Queries](VulgarUsedByMostActiveUsers.png)
 That's a lot of x-rated queries
 
 e. Which queries almost always lead to a click ?
