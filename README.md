@@ -6,14 +6,14 @@ The goal of this collection is to provide real query log data that is based on r
 #### 1. EXPLORATORY ANALYSIS
 
 ##### a. What are some common queries ?
-- To AOL's disappointment, it looks like most users were searching for other search engines instead of using AOL. This is evident when we look up the Common queries, they were either accidental (left blank, or accidentally hit search without typing a query, or they were searching for Google, Yahoo, etc)
+- To AOL's disappointment, it looks like most users were searching for other search engines instead of using AOL. This is evident when we look up the common queries, they were either accidental (left blank, or accidentally hit search without typing a query, or they were searching for Google, Yahoo, etc)
 
 ![Common Queries](Visuals/MostSearchedQueries.png)
 
 
 ##### b. Which queries do not typically lead to a click ?
 - Mispelled and Vulgar searches
-At first, I checked if there was a correlation between the time of day and the number of NaN results,and these were my findings.
+Initially, I checked if there was a correlation between the time of day and the number of NaN results,and these were my findings.
 
 ![Queries By Day](Visuals/SufferingUsers.png)
 
@@ -31,9 +31,9 @@ On reviewing this,I noticed a lot of x-rated material and these were my findings
 ![Irrelevant Results](Visuals/IrrelevantResults.png)
 
 Looking at the table above as well as the analysis; the following searches do not seem to have relevant results:
-- X-Rated
-- Misspelled
-- Have Semantic errors 
+- x-rated
+- misspelled
+- have semantic errors 
 
 ##### d. How long are typical time spent by users on the search engine ? What does this distribution look like ?
 
@@ -46,9 +46,9 @@ Looking at the table above as well as the analysis; the following searches do no
 ##### f. What do you want to share with the Product Manager of Search based on exploratory analysis of this dataset ?
 
 Opportunities:
-- Targetting People Who Have Had No Problems With AOLs Search Engine Results so far
-- Designing Market Retention Promotion Plans For First Time Users
+- Targetting people who have had no problems with AOLs search engine results so far
+- Designing Market Retention Promotion plans for first time users
 
 Fixes:
 - Incorporate an effective auto correction feature so that the queries lead to proper search results
-- Look to implement better Semantic understanding of the Search Query and map it to a more fluent form so that the query can get better Item Ranks.
+- Look to implement better semantic understanding of the Search query and map it to a more fluent form so that the query can get better item ranks.
