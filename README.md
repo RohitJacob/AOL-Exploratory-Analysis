@@ -6,7 +6,7 @@ The goal of this collection is to provide real query log data that is based on r
 #### 1. EXPLORATORY ANALYSIS
 
 ##### a. What are some common queries ?
-- To AOL's disappointment, it looks like most users were searching for other search engines instead of using AOL. This is evident when we look up the Common queries, they were either accidental (left blank, or accidentally hit search without typing a query, or they were searching for Google, Yahoo, etc
+- To AOL's disappointment, it looks like most users were searching for other search engines instead of using AOL. This is evident when we look up the Common queries, they were either accidental (left blank, or accidentally hit search without typing a query, or they were searching for Google, Yahoo, etc)
 ![Common Queries](Visuals/MostSearchedQueries.png)
 
 
@@ -19,7 +19,7 @@ But as seen above, there doesn't seem to be any indication that the time of the 
 ![Total Misspelled Queries](Visuals/SpellCheckQueries.png)
 
 As you can see, 42.2% of these NaN return searches are mispelled. The other 57.8% was correctly typed and yet there was no result. 
-After taking a step back and reviewing this, I noticed a lot of x-rated material and these were my findinggs.
+On reviewing this,I noticed a lot of x-rated material and these were my findinggs.
 ![Vulgar Queries](Visuals/VulgarUsedByMostActiveUsers.png)
 
 ##### c. Which queries do not seem to have relevant results ? You should define this in your own terms and back it up with data.
