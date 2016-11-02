@@ -19,7 +19,7 @@ But as seen above, there doesn't seem to be any indication that the time of the 
 ![Total Misspelled Queries](Visuals/SpellCheckQueries.png)
 
 As you can see, 42.2% of these NaN return searches are mispelled. The other 57.8% was correctly typed and yet there was no result. 
-After taking a step back and reviewing this, I noticed a lot of x-rated material. So let's analyze that a bit!
+After taking a step back and reviewing this, I noticed a lot of x-rated material and these were my findinggs.
 ![Vulgar Queries](Visuals/VulgarUsedByMostActiveUsers.png)
 
 ##### c. Which queries do not seem to have relevant results ? You should define this in your own terms and back it up with data.
