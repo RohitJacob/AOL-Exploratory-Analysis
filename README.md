@@ -13,7 +13,7 @@ The goal of this collection is to provide real query log data that is based on r
 
 ##### b. Which queries do not typically lead to a click ?
 - Mispelled and Vulgar searches
-Initially, I checked if there was a correlation between the time of day and the number of NaN results,and these were my findings.
+Initially,I checked if there was a correlation between the time of day and the number of NaN results,and these were my findings.
 
 ![Queries By Day](Visuals/SufferingUsers.png)
 
